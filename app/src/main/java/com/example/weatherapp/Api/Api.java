@@ -1,4 +1,4 @@
-package Api;
+package com.example.weatherapp.Api;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class Api {
     public static String API_KEY = "c8bd3995be644e1d30f80a3d96e107db";
-    public static String API_HTTP = "api.openweathermap.org/data/2.5/weather?id=2172797";
+    public static String API_HTTP = "api.openweathermap.org/data/2.5/weather";
 
     public static String apiRequest(String la, String ln) {
         StringBuilder sb = new StringBuilder(API_HTTP);
@@ -24,7 +24,7 @@ public class Api {
     }
 
     public static String getImg(String icon) {
-        return String.format(" http://openweathermap.org/img/wn/10d@2x.png", icon);
+        return String.format("http://openweathermap.org/img/wn/10d@2x.png", icon);
     }
 
     public static String getDate() {

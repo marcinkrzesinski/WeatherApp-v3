@@ -1,16 +1,15 @@
-package Models;
+package com.example.weatherapp.Models;
 
 public class WEATHER {
     private int id;
     private String main;
-    private String descriprion;
-    private String icon;
     private String description;
+    private String icon;
 
     public WEATHER(int id, String main, String description, String icon){
         this.id=id;
         this.main=main;
-        this.descriprion=description;
+        this.description=description;
         this.icon=icon;
     }
 
@@ -33,9 +32,9 @@ public class WEATHER {
         this.main=main;
     }
 
-    public String getDescriprion()
+    public String getDescription()
     {
-        return descriprion;
+        return description;
     }
 
     public void setDescription(String description) {

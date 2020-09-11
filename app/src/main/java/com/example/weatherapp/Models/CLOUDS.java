@@ -1,6 +1,7 @@
-package Models;
+package com.example.weatherapp.Models;
 
 public class CLOUDS {
+
     private int all;
 
     public CLOUDS(int all) {

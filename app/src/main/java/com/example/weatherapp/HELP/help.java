@@ -1,4 +1,4 @@
-package HELP;
+package com.example.weatherapp.HELP;
 
 import java.io.BufferedReader;
 import java.io.IOException;

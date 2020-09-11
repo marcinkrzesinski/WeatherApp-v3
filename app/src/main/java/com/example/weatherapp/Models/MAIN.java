@@ -1,4 +1,4 @@
-package Models;
+package com.example.weatherapp.Models;
 
 
 public class MAIN {
